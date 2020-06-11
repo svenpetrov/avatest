@@ -1,0 +1,248 @@
+
+
+Muutsin faili 1 korda ja kustutasin osa öra!
+
+
+            h1 {
+                /* padding: 5px 10px;  */
+                display: inline-block;
+                margin: 10px 0px;
+            }
+
+            .all {
+                border: hotpink 4px solid;
+            }
+
+            .top {
+                border-top: solid 4px hotpink;
+            }
+
+            .right {
+                border-right: solid 4px hotpink;
+            }
+
+            .bottom {
+                border-bottom: solid 4px hotpink;
+            }
+
+            .left {
+                border-left: solid 4px hotpink;
+            }
+
+            .all-mixed {
+                border: 8px hotpink;
+                border-style: dashed solid dotted double;
+            }
+            
+            .mixed-colors {
+                border-style: dashed solid dotted double;
+                border-width: 2px 4px 6px 8px;
+                border-color: red green blue black;
+
+            }
+
+            .simple {
+                border-style: dotted;
+            }
+
+            .nice {
+                border-left: 8px solid red;
+                background-color: lightgrey;
+            }
+            h1.nice {
+                padding-left: 5px;
+                padding-right: 10px;
+            }
+
+            .border {
+                border: solid 3px violet;
+                padding: 0 20px;
+            }
+
+            .radius-right {
+                border-radius: 0px 20px 20px 0px;
+            }
+            .radius-left {
+                border-radius: 20px 0px 0px 20px;
+            }
+            
+            .radius-top {
+                border-radius: 20px 20px 0px 0px;
+            }
+            .radius-bottom {
+                border-radius: 0px 0px 20px 20px;
+            }
+            
+            .radius-left-right {
+                border-radius: 20px 0px 20px 0px;
+            }
+            .radius-right-left {
+                border-radius: 0px 20px 0px 20px;
+            }
+
+            .div-forming {
+                width: 40vw;
+                height: 30vh;
+                margin: 20px auto 10px;
+                background: red;
+                border-radius: 100% 0% 100% 0%;
+            }
+            
+            .triangle-up {
+                width: 0;
+                height: 0;
+                margin: 20px auto 10px;
+
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 200px solid red;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <section class="main-area">
+            <!-- 
+            * border placements:
+            border: -> all 4 sides
+            border- ... top, right, bottom, left:
+
+            ===============
+
+            * border-style: (10 variant)
+            solid, dashed, dotted, double, groove, ridge, inset, outsed, hidden, none
+
+            -> can even be mixed:
+            border-style: top right bottom left;
+            border-style: dotted dashed solid double;
+            
+            ===============
+
+            * border-width: 1px;
+                border-width: 5px 20px; 
+                5px top and bottom, 20px on the sides
+
+                border-width: 25px 10px 4px 35px;
+                25px top, 10px right, 4px bottom and 35px left
+            
+            ================
+
+            * border-color: hotpink;
+                Note: If border-color is not set, it inherits the color of the element.
+
+                border-color: red green blue yellow; 
+                red top, green right, blue bottom and yellow left
+
+            ================
+
+            * EXAMPLES:
+            selector {
+                border-style: solid;
+                border-width: 1px;
+                border-color: hotpink;
+            }
+
+            selector-for-top-border {
+                border-top-style: solid;
+                border-top-width: 1px;
+                border-top-color: hotpink;
+            }
+
+            ==================
+
+            * border properties shorthand (order doesn't matter)
+            border: style width color
+            border: solid 2px hotpink;
+
+            * Note: None of the OTHER CSS border properties will have ANY effect unless the border-style property is set!
+
+            ==================
+
+            Shorthands that works with all border properties:
+            border-style | border-width | border-color | border-radius
+
+            If the border-style property has four values:
+                border-style: dotted solid double dashed;
+                    top border is dotted
+                    right border is solid
+                    bottom border is double
+                    left border is dashed
+
+            If the border-style property has three values:
+                border-style: dotted solid double;
+                    top border is dotted
+                    right and left borders are solid
+                    bottom border is double
+            
+            If the border-style property has two values:
+                border-style: dotted solid;
+                    top and bottom borders are dotted
+                    right and left borders are solid
+            
+            If the border-style property has one value:
+                border-style: dotted;
+                    all four borders are dotted
+
+            ====================
+
+         -->
+
+            <div>
+                <h1 class="all">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="top">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="right">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="bottom">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="left">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="all-mixed">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="mixed-colors">Hi, welcome to my page</h1>
+            </div>
+            <div>
+                <h1 class="simple">Hi, welcome to my page</h1>
+            </div>
+            
+            <h1 class="nice"> Hi, welcome to my page</h1>
+            
+            <section class="border-radius">
+                <div>
+                    <h1 class="border radius-right"> Hi, welcome to my page</h1>
+                </div>
+                <div>
+                    <h1 class="border radius-left"> Hi, welcome to my page</h1>
+                </div>
+                <div>
+                <div>
+                    <h1 class="border radius-top"> Hi, welcome to my page</h1>
+                </div>
+                <div>
+                    <h1 class="border radius-bottom"> Hi, welcome to my page</h1>
+                </div>
+                <div>
+                    <h1 class="border radius-left-right"> Hi, welcome to my page</h1>
+                </div>
+                <div>
+                    <h1 class="border radius-right-left"> Hi, welcome to my page</h1>
+                </div>
+                <div class="div-forming"></div>
+                <div class="triangle-up"></div>
+            </section>
+
+
+        </section>
+    </body>
+
+</html>
