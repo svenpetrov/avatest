@@ -1,3 +1,4 @@
 esimene ridateine ridakolmas rida
 neljas rida
 viies rida
+kuues rida, mis peaks pulliga alla tulema clone kataloogi?
