@@ -1,3 +1,2 @@
 #See saab olema pealkiri
-
 Siia tuleb täpsem selgitus, mis repo ja projektiga on tegemist ...
