@@ -1,0 +1,3 @@
+uus tekst
+Lisatekst
+pushide kontrollitekst GitHub & Bitbucket branch2_fail_restore.txt
