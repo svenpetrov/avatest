@@ -1,1 +1,2 @@
 Lisame infot uusfaili, e tnäha kas ilmub mõlemas kui pushida nii bb kui gh
+Lisarida uueks kitsendatud prooviks
