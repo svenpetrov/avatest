@@ -1,1 +1,1 @@
-Lihtsalt push kontrollimiseks
+Push seotud bitbucketiga nüüd
